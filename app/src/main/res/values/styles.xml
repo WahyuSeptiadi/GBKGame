@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="humanWinToast">
+        <item name="colorBackground">#94ffab</item>
+        <item name="textColor">#000</item>
+        <item name="iconLeft">@drawable/ic_games</item>
+        <item name="strokeColor">#000</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="length">SHORT</item>
+    </style>
+
+    <style name="cpuWinToast">
+        <item name="colorBackground">#3CBDFF</item>
+        <item name="textColor">#000</item>
+        <item name="iconLeft">@drawable/ic_games</item>
+        <item name="strokeColor">#000</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="length">SHORT</item>
+        <item name="android:layout_marginBottom">200dp</item>
+    </style>
+
+    <style name="drawToast">
+        <item name="colorBackground">#FF4747</item>
+        <item name="textColor">#000</item>
+        <item name="iconLeft">@drawable/ic_games</item>
+        <item name="strokeColor">#000</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="length">SHORT</item>
+        <item name="android:gravity">top</item>
+    </style>
+</resources>
